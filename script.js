@@ -78,12 +78,12 @@ function mostrarFotos() {
 			<h2>Nuestros recuerdos ❤️</h2>
 			<p>Cada momento contigo merece ser guardado.</p>
 			<div class="galeria">
-				<div class="foto"><img src="fotos/foto1.jpg" alt="Nuestro recuerdo 1"></div>
+				<div class="foto"><img src="foto1.jpg" alt="Nuestro recuerdo 1"></div>
 				<div class="foto foto-central" id="foto-carta">
-					<img src="fotos/foto2.jpg" alt="Abrir carta">
+					<img src="foto2.jpg" alt="Abrir carta">
 					<span>💌</span>
 				</div>
-				<div class="foto"><img src="fotos/foto3.jpg" alt="Nuestro recuerdo 3"></div>
+				<div class="foto"><img src="foto3.jpg" alt="Nuestro recuerdo 3"></div>
 			</div>
 		</div>
 	`);
@@ -110,7 +110,7 @@ function mostrarCarta() {
 				<button id="cerrar">Cerrar ❤️</button>
 			</div>
 			<audio id="musica" loop>
-				<source src="musica/romantica.mp3" type="audio/mpeg">
+				<source src="romantica.mp3" type="audio/mpeg">
 			</audio>
 		`;
 		document.body.appendChild(carta);
